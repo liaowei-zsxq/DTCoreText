@@ -38,7 +38,7 @@ NSString * const DTDocumentPreserveTrailingSpaces = @"DTDocumentPreserveTrailing
 
 NSString * const DTTextListsAttribute = @"DTTextLists";
 NSString * const DTAttachmentParagraphSpacingAttribute = @"DTAttachmentParagraphSpacing";
-NSString * const DTLinkAttribute = @"NSLink";
+NSString * const DTLinkAttribute = @"DTLink";
 NSString * const DTLinkHighlightColorAttribute = @"DTLinkHighlightColor";
 NSString * const DTAnchorAttribute = @"DTAnchor";
 NSString * const DTGUIDAttribute = @"DTGUID";

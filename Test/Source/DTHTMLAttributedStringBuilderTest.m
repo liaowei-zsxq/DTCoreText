@@ -320,7 +320,7 @@
 	NSAttributedString *string = [self attributedStringFromHTMLString:@"<a href=\"http://www.example.com/你好\">hello</a>" options:nil];
 	
 	NSRange effectiveRange;
-	NSURL *link = [string attribute:NSLinkAttributeName atIndex:0 effectiveRange:&effectiveRange];
+	NSURL *link = [string attribute:DTLinkAttribute atIndex:0 effectiveRange:&effectiveRange];
 	
 	NSString *linkStr = link.absoluteString;
 	NSString *expected = @"http://www.example.com/%E4%BD%A0%E5%A5%BD";
