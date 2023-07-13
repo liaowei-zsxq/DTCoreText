@@ -1,4 +1,4 @@
-framework module DTCoreText [extern_c] {
+framework module DTCoreText {
     umbrella header "DTCoreText.h"
     export *
 }
